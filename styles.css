@@ -1,0 +1,133 @@
+body {
+	background-color: #e0e0eb;
+}
+/*Header style*/
+
+.header-container div{
+	display: inline-block;
+}
+
+.header-container {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: -20px;
+	border-bottom: 5px solid gray;
+}
+
+.header-main-info h1{
+	font-size: 55px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header-main-info h2{
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-main-info {
+	text-align: left;
+	width: 40%;
+}
+
+.header-photo {
+	display: block;
+	text-align: center;
+	width: 20%;
+}
+
+header img {
+	height: 130px;
+	border-radius: 50%; /* Радиус скругления */
+    border: 3px solid white; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.header-additional-info {
+	width: 30%;
+	text-align: right;
+}
+
+.header-additional-info a{
+	font-size: 22px;
+}
+
+/* main style */
+
+main {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 25px;
+	margin-bottom: 120px;
+}
+
+table th {
+	font-size: 40px;
+	text-align: left;
+	font-family: 'Kite One', sans-serif;
+	width: 18%;
+}
+
+table div {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.skills-container .skill{
+	font-size: 33px;
+	font-weight: 600;
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+.skills-container p{
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.technical-container div{
+	display: inline-block;
+	border: 1px dashed #090;
+
+}
+.li-col1 {
+	
+	width: 20%;
+}
+
+.li-col2 {
+	
+	width: 49%;
+}
+
+.li-col3 {
+	
+	width: 29%;
+}
+.expirience-container img{
+	float: left;
+	width: 80px;
+}
+
+
+/* footer */
+
+.footer-container {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #e0e0eb;
+	border-top: 5px solid gray;
+
+}
+.footer-container img{
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 40px;
+}
+
